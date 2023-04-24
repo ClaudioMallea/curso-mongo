@@ -1,0 +1,8 @@
+use("platzi_store")
+
+db.products.insertOne({
+    "name":"hello",
+    "price": 1
+})
+
+db.products.find()
